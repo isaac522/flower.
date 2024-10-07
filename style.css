@@ -1,0 +1,45 @@
+.container {
+  width: 200px;
+  height: 200px;
+  border: 2px solid green;
+  border-radius: 1%;
+  position: relative;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle.outer {
+  background-color: pink;
+  border: 2px solid pink;
+  width: 80%;
+  height: 80%;
+}
+
+.circle.middle1 {
+  background-color: pink;
+  border: 2px solid pink;
+  width: 100%;
+  height: 100%;
+}
+
+.circle.middle2 {
+  background-color: purple;
+  border: 2px solid purple;
+  width: 90%;
+  height: 90%;
+}
+
+.circle.inner {
+  background-color: purple;
+  border: 2px solid purple;
+  width: 80%;
+  height: 80%;
+}
